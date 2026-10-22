@@ -3,7 +3,10 @@ import { cookies } from 'next/headers';
 export { browserClient } from './supabase-client';
 
 const url = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://placeholder.supabase.co';
-const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || 'placeholder';
+const key =
+  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ||
+  process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY ||
+  'placeholder';
 
 export async function serverClient() {
   const jar = await cookies();
