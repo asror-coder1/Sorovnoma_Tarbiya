@@ -73,27 +73,46 @@ export async function POST(req: NextRequest) {
     if (isSupabaseConfigured) {
       try {
         const sb = await serverClient();
-        const { error } = await sb.rpc('submit_survey', {
-          p_submission_key: submissionKey,
-          p_full_name: student.full_name,
-          p_school: student.school,
-          p_class_name: student.class_name,
-          p_answers: answers,
-          p_other: other,
+
+        // 1. Try direct table insert (most reliable on Supabase)
+        const insertRes = await sb.from('responses').insert({
+          submission_key: submissionKey,
+          full_name: student.full_name.trim(),
+          school: student.school.trim(),
+          class_name: student.class_name.trim().toUpperCase().replace(/\s+/g, '-'),
+          answers: {
+            ...answers,
+            _other: other,
+          },
         });
 
-        if (!error) {
+        if (!insertRes.error) {
           savedInSupabase = true;
         } else {
-          console.warn('Supabase save error, falling back to local storage:', error.message || error.code);
+          console.warn('Direct insert returned error, trying RPC:', insertRes.error.message);
+          // 2. Try RPC submit_survey
+          const rpcRes = await sb.rpc('submit_survey', {
+            p_submission_key: submissionKey,
+            p_full_name: student.full_name,
+            p_school: student.school,
+            p_class_name: student.class_name,
+            p_answers: answers,
+            p_other: other,
+          });
+
+          if (!rpcRes.error) {
+            savedInSupabase = true;
+          } else {
+            console.error('RPC also failed:', rpcRes.error.message);
+          }
         }
       } catch (sbErr) {
-        console.warn('Supabase connection failed, falling back to local storage:', sbErr);
+        console.warn('Supabase connection failed:', sbErr);
       }
     }
 
     if (!savedInSupabase) {
-      // Save locally so the user's submission is never lost
+      // Save locally in fallback storage
       saveLocalResponse({
         id: crypto.randomUUID(),
         submission_key: submissionKey,

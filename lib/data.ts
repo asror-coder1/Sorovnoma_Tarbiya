@@ -18,15 +18,18 @@ export async function loadResponses(): Promise<ResponseRow[]> {
           .select('id,full_name,school,class_name,answers,created_at')
           .order('created_at', { ascending: false })
           .range(from, from + 999);
-        if (error) break;
+        if (error) {
+          console.error('Supabase load error:', error.message);
+          break;
+        }
         all.push(...((data as ResponseRow[]) || []));
         if (!data || data.length < 1000) break;
       }
-      if (all.length > 0) {
-        return all;
-      }
-    } catch {
-      // Fallback to local storage if Supabase connection fails
+
+      // If Supabase query succeeded, return Supabase responses
+      return all;
+    } catch (e) {
+      console.warn('Fallback to local responses due to exception:', e);
     }
   }
 
