@@ -1,0 +1,1 @@
+import {loadResponses} from '@/lib/data';import GroupPage from '@/components/GroupPage';export const dynamic='force-dynamic';export default async function Page(){return <GroupPage rows={await loadResponses()} field="class_name"/>}

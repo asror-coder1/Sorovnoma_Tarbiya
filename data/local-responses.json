@@ -1,0 +1,196 @@
+[
+  {
+    "id": "b121bac4-1d51-455f-b927-e49fc1b7c067",
+    "submission_key": "a4bcbfe2-e378-408b-a8a7-30ff68f91ff5",
+    "full_name": "Ogabek Yunusov",
+    "school": "PDP",
+    "class_name": "9-B",
+    "answers": {
+      "1": "1–3 soat",
+      "2": "Ijtimoiy tarmoqlar",
+      "3": "Hech qanday",
+      "4": "Telefon",
+      "5": "Oyiga bir yoki ikki marta",
+      "6": [
+        "Maktabdagi kitobxonlik tadbirlari"
+      ],
+      "7": "dwfwe wedfadsfqwads",
+      "8": "sdfas",
+      "extra": "sdfasfas",
+      "_other": {}
+    },
+    "created_at": "2026-10-22T14:14:14.420Z"
+  },
+  {
+    "id": "bf6cdf1f-4c62-4eb2-9ceb-f875b83d1568",
+    "submission_key": "ec78b107-8350-40b1-9b2d-bcd8616be447",
+    "full_name": "Asror Fayzullayev",
+    "school": "114-maktab",
+    "class_name": "10-V",
+    "answers": {
+      "1": "3–5 soat",
+      "2": "Ijtimoiy tarmoqlar",
+      "3": "1 ta",
+      "4": "Kitob",
+      "5": "Juda kam",
+      "6": [
+        "Kitobxonlik tanlovlari va sovrinlar"
+      ],
+      "7": "dewd. wedwed",
+      "8": "wedwed. wedwed",
+      "extra": "wedwe wedwdwedw",
+      "_other": {}
+    },
+    "created_at": "2026-10-22T14:09:49.460Z"
+  },
+  {
+    "id": "5dd869e9-4006-4a43-8157-683097c35218",
+    "submission_key": "99999999-9999-9999-9999-999999999999",
+    "full_name": "Javohir Toshmatov",
+    "school": "21-maktab",
+    "class_name": "11-A",
+    "answers": {
+      "1": "1–3 soat",
+      "2": "Ijtimoiy tarmoqlar",
+      "3": "2–3 ta",
+      "4": "Kitob",
+      "5": "Har hafta",
+      "6": [
+        "Qiziqarli hikoyalar"
+      ],
+      "7": "Maktab kutubxonasida yangi kitoblar ko‘paysin",
+      "8": "Kuniga 1 soat kitob o‘qishni reja qilib olish zarur",
+      "extra": "Ajoyib so‘rovnoma",
+      "_other": {}
+    },
+    "created_at": "2026-10-22T14:09:03.112Z"
+  },
+  {
+    "id": "7ee52e93-bf40-480a-b5df-f165f836a953",
+    "submission_key": "550e8400-e29b-41d4-a716-446655440099",
+    "full_name": "Asrorbek Qodirov",
+    "school": "114-maktab",
+    "class_name": "10-B",
+    "answers": {
+      "1": "1–3 soat",
+      "2": "Ijtimoiy tarmoqlar",
+      "3": "1 ta",
+      "4": "Kitob",
+      "5": "Har hafta",
+      "6": [
+        "Qiziqarli hikoyalar"
+      ],
+      "7": "Hello my name is Asror",
+      "8": "Hello my name is Asror",
+      "extra": "HI hello",
+      "_other": {}
+    },
+    "created_at": "2026-10-22T14:04:55.334Z"
+  },
+  {
+    "id": "664bb523-38e2-4da0-8ab0-a2f55cdf3b4b",
+    "submission_key": "23bb0486-5e75-4396-a5a2-7cca9df3f33f",
+    "full_name": "Asror Fayzullayev",
+    "school": "1111",
+    "class_name": "11-B",
+    "answers": {
+      "1": "3–5 soat",
+      "2": "Video va filmlar",
+      "3": "1 ta",
+      "4": "Sport yoki sayr",
+      "5": "Oyiga bir yoki ikki marta",
+      "6": [
+        "Kitobxonlik tanlovlari va sovrinlar"
+      ],
+      "7": "wkdjqwebdfb",
+      "8": "weewqdfeq",
+      "extra": "wedqewdfw",
+      "_other": {}
+    },
+    "created_at": "2026-10-22T14:04:29.182Z"
+  },
+  {
+    "id": "b099f8f7-fa1a-4256-879c-f32bfce15268",
+    "submission_key": "550e8400-e29b-41d4-a716-446655440001",
+    "full_name": "Ali Valiyev",
+    "school": "114-maktab",
+    "class_name": "10-B",
+    "answers": {
+      "1": "1–3 soat",
+      "2": "Ijtimoiy tarmoqlar",
+      "3": "1 ta",
+      "4": "Kitob",
+      "5": "Har hafta",
+      "6": [
+        "Qiziqarli hikoyalar"
+      ],
+      "7": "Hello my name is Asror",
+      "8": "Hello my name is Asror",
+      "extra": "HI hello",
+      "_other": {}
+    },
+    "created_at": "2026-10-22T14:01:20.614Z"
+  },
+  {
+    "id": "demo-1",
+    "full_name": "Madina Karimova",
+    "school": "114-maktab",
+    "class_name": "10-A",
+    "answers": {
+      "1": "1–3 soat",
+      "2": "Dars va ta’lim olish",
+      "3": "2–3 ta",
+      "4": "Kitob",
+      "5": "Har hafta",
+      "6": [
+        "Qiziqarli hikoyalar",
+        "Kitobxonlik tanlovlari va sovrinlar"
+      ],
+      "7": "Kutubxonadagi kitoblar fondini yangilash va zamonaviy o‘quv zalini tashkil qilish kerak.",
+      "8": "Har kuni kechqurun kamida 45 daqiqa telefonni chetga surib kitob o‘qish odatini shakllantirish zarur.",
+      "extra": "Maktabimizda kitobxonlar klubi ochilishini taklif qilaman."
+    },
+    "created_at": "2026-10-20T14:01:20.607Z"
+  },
+  {
+    "id": "demo-2",
+    "full_name": "Jasur Bekmurodov",
+    "school": "21-maktab",
+    "class_name": "9-B",
+    "answers": {
+      "1": "3–5 soat",
+      "2": "Ijtimoiy tarmoqlar",
+      "3": "1 ta",
+      "4": "Telefon",
+      "5": "Juda kam",
+      "6": [
+        "Do‘stlar yoki tavsiyalar"
+      ],
+      "7": "Elektron kitoblar o‘qish uchun planshetlar yoki kompyuterlar qo‘yilsa zo‘r bo‘lardi.",
+      "8": "Telefonga kitob o‘qish ilovalarini o‘rnatib, ijtimoiy tarmoqlar vaqtiga cheklov qo‘yish kerak.",
+      "extra": "Kutubxonada qulay yumshoq o‘rindiqlar bo‘lsa yaxshi bo‘lardi."
+    },
+    "created_at": "2026-10-21T20:01:20.607Z"
+  },
+  {
+    "id": "demo-3",
+    "full_name": "Ziyoda Abdullayeva",
+    "school": "114-maktab",
+    "class_name": "11-A",
+    "answers": {
+      "1": "1–3 soat",
+      "2": "Dars va ta’lim olish",
+      "3": "4 ta yoki undan ko‘p",
+      "4": "Kitob",
+      "5": "Oyiga bir yoki ikki marta",
+      "6": [
+        "Qiziqarli hikoyalar",
+        "Do‘stlar yoki tavsiyalar"
+      ],
+      "7": "Yangi badiiy asarlar va chet tili adabiyotlari ko‘paytirilsa ajoyib bo‘lar edi.",
+      "8": "Telefonda vaqtni behuda sarflamay, reja asosida o‘qish lozim.",
+      "extra": "Ko‘proq kitob muhokamalari o‘tkazilsin."
+    },
+    "created_at": "2026-10-22T09:01:20.607Z"
+  }
+]

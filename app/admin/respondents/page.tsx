@@ -1,0 +1,1 @@
+import {loadResponses} from '@/lib/data';import Respondents from '@/components/Respondents';export const dynamic='force-dynamic';export default async function Page(){return <Respondents rows={await loadResponses()}/>}

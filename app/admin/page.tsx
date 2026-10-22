@@ -1,0 +1,1 @@
+import {loadResponses} from '@/lib/data';import {Dashboard} from '@/components/Analytics';export const dynamic='force-dynamic';export default async function Page(){return <Dashboard rows={await loadResponses()}/>}

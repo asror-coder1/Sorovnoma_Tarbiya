@@ -1,0 +1,1 @@
+import {loadResponses} from '@/lib/data';import {FullAnalytics} from '@/components/Analytics';export const dynamic='force-dynamic';export default async function Page(){return <FullAnalytics rows={await loadResponses()}/>}
